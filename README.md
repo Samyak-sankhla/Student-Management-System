@@ -55,7 +55,7 @@ CREATE DATABASE student_management_db;
 
 Or execute the SQL script:
 ```bash
-mysql -u root <passwd?> < database_setup.sql
+mysql -u root <passwd> < database_setup.sql
 ```
 
 ### Step 2: Clone/Open the Project
@@ -67,7 +67,7 @@ The file is already configured with:
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/student_management_db
 spring.datasource.username=root
-spring.datasource.password=sathwik
+spring.datasource.password=passwd
 ```
 
 ### Step 4: Build the Project
