@@ -55,7 +55,7 @@ CREATE DATABASE student_management_db;
 
 Or execute the SQL script:
 ```bash
-mysql -u root -psathwik < database_setup.sql
+mysql -u root <passwd?> < database_setup.sql
 ```
 
 ### Step 2: Clone/Open the Project
